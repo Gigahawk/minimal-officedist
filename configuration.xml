@@ -1,0 +1,23 @@
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="Monthly">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Project" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Visio" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+  </Add>
+  <Updates Enabled="TRUE" Channel="Monthly" />
+  <Display Level="Full" AcceptEULA="True" />
+  <Property Name="PinIconsToTaskbar" Value="FALSE" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Logging Level="Off" />
+</Configuration>
